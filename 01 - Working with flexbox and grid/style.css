@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.item {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 95%;
+    margin: 3.53vh auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;   
+    font-size: 1.1rem;
+}
+a:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+.logo-navigation {
+    grid-column: 1/-1;
+    min-height: 7vh;    
+    display: flex;     
+    justify-content: space-around;   
+}
+.logo {
+    text-transform: uppercase;
+}
+.right-nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-banner {
+    grid-column: 1/-1;
+    min-height: 14vh;
+    background-image: url(https://images.pexels.com/photos/773958/pexels-photo-773958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1%201x,%20https://images.pexels.com/photos/773958/pexels-photo-773958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2%202x);
+    background-size: cover;
+    background-position: center;                  
+}
+
+.intro-text-area {
+    grid-column: 1/-1;
+    min-height: 9vh;
+}
+.intro-text-area h2 {
+    font-weight: 400;
+    display: flex;            
+    align-items: center;
+    
+    gap: .5rem;
+}
+.material-symbols-outlined {
+    font-weight: 100;    
+}
+
+.box1, .box2, .box3 {
+    min-height: 50vh;
+}
+
+.box1 {
+    background-image: url(https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1%201x,%20https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2%202x);
+    background-size: cover;
+    background-position: center;
+}
+.box2 {
+    background-image: url(https://images.pexels.com/photos/1235706/pexels-photo-1235706.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box3 {
+    background-image: url(https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    grid-column: 1/-1;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+}
