@@ -87,3 +87,18 @@ ul li {
     background-color: black;
     color: white;
 }
+
+a:hover {
+    color: #00754a;;
+}
+
+.button:hover {
+    background-color: rgba(0,0,0,.06);
+}
+
+.btn-black:hover {
+    border-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.7);
+}
+
+
