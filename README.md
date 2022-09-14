@@ -1,2 +1,2 @@
-# Practicing CSS Flexbox and Grid
+# Practicing CSS Flexbox and CSS Grid
 ## yboCrafts
