@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;    
+}
+
+.block {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba( 0, 0, 0, .9);
+}
+
+li a {
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;    
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.left-nav-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.right-nav a{
+    font-size: .9rem;
+    font-weight: bold;    
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+.button {
+    background: none;
+    padding: .5rem 1rem;
+    border: 1px solid rgba(0 , 0, 0, .8);
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+}
