@@ -101,6 +101,71 @@ a:hover {
     background-color: rgba(0,0,0,.7);
 }
 
+.item-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: .7rem 0;
+}
+
+.item {
+    width: 75%;
+    background-color: #006241;;
+    margin: 1.2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(385px, 1fr));    
+    color: white;
+}
+
+.main-item {
+    background-color: #d4e9e2;;
+    color: black;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    text-align: center;
+    margin: 2rem 1rem;
+    letter-spacing: 1px;
+}
+.description button {    
+    color: white;
+    border-color: white;
+}
+.description .main-button {
+    color: black;
+    border-color: black;
+}
+.description p {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 1.7rem;    
+}
+.description h1 {
+    width: 70%;
+    font-size: 2.5rem;
+}
+
+
+img {
+    width: 100%;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .item {
+        width: 100%;
+        order: 1;
+    }
+
+    .description {
+        order: 2;
+    }
+}
+
 @media (max-width: 1025px) {
     .container {
         min-height: 8.825vh;
@@ -109,3 +174,10 @@ a:hover {
         width: 95%;
     }
 }
+
+@media (max-width: 1440px) {
+    .item {
+        width: 100%;
+    }
+}
+
