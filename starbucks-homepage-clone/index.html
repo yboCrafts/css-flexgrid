@@ -143,10 +143,14 @@
 
     <script>
         const burger = document.querySelector('.burger');
+
         
         function show() {
             const dropdown = document.querySelector('.dropdown-container');
+            const body = document.querySelector('body');
+
             dropdown.classList.toggle('display-drop');
+            body.classList.toggle('overflow-none');
         }
 
         burger.addEventListener('click', show);
