@@ -81,7 +81,7 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 5rem;
 }
 
 .right-intro {
@@ -93,7 +93,7 @@ ul li {
 }
 
 .right-intro img {
-    width: 600px;
+    width: 550px;
 }
 
 .right-intro h2 {
