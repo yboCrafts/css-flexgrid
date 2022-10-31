@@ -240,9 +240,6 @@ img {
         display: flex;
         transform: translateX(0);
     }
-    .overflow-none {
-        overflow-y: hidden;
-    }
 }
 
 @media (max-width: 365px) {
